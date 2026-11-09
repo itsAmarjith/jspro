@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{background-color: beige;}
+    </style>
+</head>
+<body>
+    <h1 id="count">0</h1>
+    <button id="increment">Increment</button>
+    <button id="decrement">Decrement</button>
+
+
+    <script>
+         let number=0;
+
+         const btn=document.getElementById("increment")
+         btn.style.backgroundColor="yellow"
+         
+        function handleclick(){
+            number++;
+            document.getElementById("count").innerHTML = number;
+            btn.style.backgroundColor="yellow"
+        }
+        btn.addEventListener('click',handleclick)
+
+
+
+         const btn1=document.getElementById("decrement")
+           btn1.style.backgroundColor="green"
+        function handleclick1(){
+            number--;
+             document.getElementById("count").innerHTML = number;
+
+            btn1.style.backgroundColor="green"
+        }
+        btn1.addEventListener('click',handleclick1)
+
+
+    </script>
+    
+</body>
+</html>
