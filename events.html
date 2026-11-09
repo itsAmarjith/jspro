@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="mybutton">clickme</button>
+    <button id="mybutton">click</button>
     <script>
         // const btn=document.getElementById("mybutton")
         // function handleclick(){
@@ -36,6 +36,18 @@
         // btn.addEventListener('click',()=>{
         //     alert('buttonclicked')
         // })
+
+
+
+        const btn=document.getElementById("mybutton")
+        function handleclick(){
+            alert('buttonclicked')
+        }
+        btn.addEventListener('click',handleclick)
+        btn.removeEventListener('click',handleclick)
+
+
+
 
 
     </script>
