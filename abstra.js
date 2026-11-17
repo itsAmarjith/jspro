@@ -12,26 +12,26 @@
 // obj.drive()
 
 
-class Animal{
-    sound(){
-        console.log("make sound")
-    }
+// class Animal{
+//     sound(){
+//         console.log("make sound")
+//     }
     
-}
-class Dog extends Animal{
-    sound(){
-        console.log("dog bark")
-    }
-}
-class Cat extends Animal{
-    sound(){
-        console.log("cat meows")
-    }
-}
-let obj = [new Animal(),new Dog(),new Cat()]
-obj.forEach(ele => {ele.sound()
+// }
+// class Dog extends Animal{
+//     sound(){
+//         console.log("dog bark")
+//     }
+// }
+// class Cat extends Animal{
+//     sound(){
+//         console.log("cat meows")
+//     }
+// }
+// let obj = [new Animal(),new Dog(),new Cat()]
+// obj.forEach(ele => {ele.sound()
 
-});
+// });
 
 
 
