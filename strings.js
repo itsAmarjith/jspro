@@ -28,7 +28,7 @@
 
 // let str="5"
 // console.log(str.padStart(3,"0"))
-// console.log(str.padEnd())
+// console.log(str.padEnd(5,"6"))
 
 
 
